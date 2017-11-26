@@ -1,2 +1,2 @@
 # myFPS
-Just a unity 3d project for lerning the basics in unity3d
+Just a unity 3d project for learning the basics in unity3d
