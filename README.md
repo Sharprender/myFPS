@@ -1,5 +1,5 @@
 # myFPS
-Just an Unity3D project for learning the basics. Based on youtube-tutorial of [Brackeys](https://www.youtube.com/user/Brackeys).
+Just an Unity3D project for learning the basics. Based on Youtube-Tutorial of [Brackeys](https://www.youtube.com/user/Brackeys).
 
 
 
