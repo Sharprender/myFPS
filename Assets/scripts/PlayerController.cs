@@ -27,15 +27,15 @@ public class PlayerController : MonoBehaviour {
 
         motor.Move(velocity);
 
-        float yRotate = Input.GetAxisRaw("Mouse X");
+        float yRotation = Input.GetAxisRaw("Mouse X");
 
-        Vector3 rotation = new Vector3(0f, yRotate, 0f) * lookSensitivity;
+        Vector3 rotation = new Vector3(0f, yRotation, 0f) * lookSensitivity;
 
         motor.Rotate(rotation);
 
-        float xRotate = Input.GetAxisRaw("Mouse Y");
+        float xRotation = Input.GetAxisRaw("Mouse Y");
 
-        Vector3 cameraRotation = new Vector3(xRotate, 0f, 0f) * lookSensitivity;
+        Vector3 cameraRotation = new Vector3(xRotation, 0f, 0f) * lookSensitivity;
 
         motor.RotateCamera(cameraRotation);
     }
